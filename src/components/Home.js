@@ -2,6 +2,9 @@ import React from 'react'
 import '../App.css'
 import { Card, Button } from 'react-bootstrap'
 import Resume from "../resources/Resume.pdf"
+import Bytes from "../resources/bytes.png"
+import TargetPopper from "../resources/target_popper.png"
+import RastaImagery from "../resources/rasta_imagery.png"
 
 const Home = () => {
     return (
@@ -28,6 +31,9 @@ const Home = () => {
                     <a target="_blank" href="mailto: coreywilson319@gmail.com">Coreywilson319@gmail.com</a>
                     </li>
                 </ul>
+                <p id="about">
+                I am a graduate of General Assembly's Software Engineer Immersive program. After going some time of trying to self-teach myself to become a developer, and losing my job due to covid-19 opened the door for me to take the time to participate in this program. During this program I improved my understanding of the basics of coding as well as taking that knowledge further and developing full stack web applications. I believe that I am ready to take the leap to the next step and become a professional software engineer. I am soft spoken and reserved which allow me to work well with a team and individually. I am a good problem solver and am always trying to think ahead and possible outcomes.
+            </p>
             
             <div class="projects">
                 <div id="card">
@@ -36,19 +42,16 @@ const Home = () => {
                     border="dark"
                     text="dark"
                 >
-                    <Card.Img />
+                    <Card.Img src={Bytes}/>
                     <Card.Body>
                     <Card.Title>
-                        This is Project 1
+                        Bytes
                     </Card.Title>
-                    <Card.Subtitle>
-                        Name of Project
-                    </Card.Subtitle>
                     <Card.Text>
                         Text about Project Here
                     </Card.Text>
-                    <Card.Link>
-                        Link to Project here
+                    <Card.Link target="_blank" href="https://quiet-chamber-78994.herokuapp.com/">
+                        Link to Bytes
                     </Card.Link>
                     </Card.Body>
                 </Card>
@@ -59,19 +62,16 @@ const Home = () => {
                     border="dark"
                     text="dark"
                 >
-                    <Card.Img />
+                    <Card.Img src={TargetPopper}/>
                     <Card.Body>
                     <Card.Title>
-                        This is Project 1
+                        Target Popper
                     </Card.Title>
-                    <Card.Subtitle>
-                        Name of Project
-                    </Card.Subtitle>
                     <Card.Text>
                         Text about Project Here
                     </Card.Text>
-                    <Card.Link>
-                        Link to Project here
+                    <Card.Link target="_blank" src="https://gifted-bell-9d9077.netlify.app/">
+                        Link to Target Popper
                     </Card.Link>
                     </Card.Body>
                 </Card>
@@ -82,19 +82,16 @@ const Home = () => {
                     border="dark"
                     text="dark"
                 >
-                    <Card.Img />
+                    <Card.Img src={RastaImagery}/>
                     <Card.Body>
                     <Card.Title>
-                        This is Project 1
+                        Rasta Imagery
                     </Card.Title>
-                    <Card.Subtitle>
-                        Name of Project
-                    </Card.Subtitle>
                     <Card.Text>
                         Text about Project Here
                     </Card.Text>
                     <Card.Link>
-                        Link to Project here
+                        Link to Rasta Imagery
                     </Card.Link>
                     </Card.Body>
                 </Card>
