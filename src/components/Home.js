@@ -69,7 +69,7 @@ const Home = () => {
                     <Card.Text>
                         Text about Project Here
                     </Card.Text>
-                    <Card.Link target="_blank" src="https://gifted-bell-9d9077.netlify.app/">
+                    <Card.Link target="_blank" href="https://gifted-bell-9d9077.netlify.app/">
                         Link to Target Popper
                     </Card.Link>
                     </Card.Body>
@@ -89,7 +89,7 @@ const Home = () => {
                     <Card.Text>
                         Text about Project Here
                     </Card.Text>
-                    <Card.Link>
+                    <Card.Link target="_blank" href="https://rasta-imagery.herokuapp.com/">
                         Link to Rasta Imagery
                     </Card.Link>
                     </Card.Body>
