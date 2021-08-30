@@ -1,4 +1,8 @@
+#body {
+  margin-top: 5%
+}
 #name {
+  margin-top: 3%;
   text-align: center;
   font-family: 'Source Code Pro', monospace;
 }
@@ -11,6 +15,7 @@
 }
 
 #title {
+  margin-top: 1%;
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
 }
@@ -38,5 +43,6 @@
 
 #about {
   text-align: center;
-  margin: 2.5% 20%
+  /* margin: 2.5% 20%; */
+  color: white;
 }
